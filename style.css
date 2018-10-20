@@ -1,0 +1,41 @@
+body{
+	margin: 0
+	padding:0
+	background-size: cover;
+	background -position: center;
+    
+}
+
+	.login-box{
+		width: 320px;
+		height: 420px;
+		background: hsla(0, 100%, 90%,0.3);
+		
+		color: 	#20b2aa;
+		top:50%;
+		left:50%; 
+		position: absolute;
+		transform: translate(-50%,-50%);
+		box-sizing: border-box;
+	}
+button{
+	background: #20b2aa;
+
+	color: #F9B7FF;
+	text-align: center;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #F9B7FF;
+}
